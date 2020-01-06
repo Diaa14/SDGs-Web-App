@@ -22,7 +22,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../JDBC/sqljdbc_7.4/enu/mssql-jdbc-7.4.1.jre12.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Tools/servlet-api.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -31,12 +31,11 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../servlet-api.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Tools/JDBC/sqljdbc_7.4/enu/mssql-jdbc-7.4.1.jre12.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="servlet-api" level="project" />
   </component>
 </module>
