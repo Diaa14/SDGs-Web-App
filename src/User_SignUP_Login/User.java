@@ -4,11 +4,11 @@ public class User {
     private boolean IsAdmin ;
     private String FirstName;
     private String LastName;
-    private String Mail ;
+    private String E_mail ;
     private String Password;
 
-    public void setAdmin(boolean admin) {
-        IsAdmin = admin;
+    public void setAdmin(boolean is_admin) {
+        IsAdmin = is_admin;
     }
 
     public void setFirstName(String firstName) {
@@ -19,8 +19,8 @@ public class User {
         LastName = lastName;
     }
 
-    public void setMail(String mail) {
-        Mail = mail;
+    public void setE_mail(String e_mail) {
+        E_mail = e_mail;
     }
 
     public void setPassword(String password) {
@@ -35,8 +35,8 @@ public class User {
         return LastName;
     }
 
-    public String getMail() {
-        return Mail;
+    public String getE_mail() {
+        return E_mail;
     }
 
     public String getPassword() {
